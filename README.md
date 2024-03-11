@@ -2,6 +2,8 @@
 ## 👥 Team
 - Team name : ⚔️ 좋은 놈, 나쁜 놈, 이상한 놈 (놈놈놈)
 - Team members : 송은민, 윤성진, 송영달
+- * :clock1:시작일 : 2024.02.26(월)
+  * ⏰목표일 : 2024.03.15(금)
 ## :books: skill
 - **Programming** <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 - **Framework** <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white"> <img src="https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white">
