@@ -4,3 +4,4 @@ pandas
 keybert
 kiwipiepy
 transformers
+streamlit-option-menu
