@@ -7,6 +7,7 @@ from kiwipiepy import Kiwi
 
 # openai.api_key = st.secrets['OPENAI_API_KEY']
 
+@st.cache_data
 def make_copywriter(
     prompt,
     system_role="당신은 세상에서 가장 유용한 도우미입니다.",
@@ -23,7 +24,7 @@ def make_copywriter(
         stream=stream
     )
     return response
-
+@st.cache_data
 def print_streaming_copywriter(copywriter):
     message = ''
     placeholder = st.empty()
@@ -37,7 +38,7 @@ def print_streaming_copywriter(copywriter):
             break
     placeholder.markdown(message)
     return message
-
+@st.cache_data
 def keyword_extraction_with_noun_extraction(df):
     # KeyBERT 객체 생성
     model = BertModel.from_pretrained('skt/kobert-base-v1')
@@ -93,6 +94,6 @@ def keyword_extraction_with_noun_extraction(df):
 
     return df_keywords
 
-
+@st.cache_data
 def data_loader(file_path):
     df = pd.read_csv(file_path)
