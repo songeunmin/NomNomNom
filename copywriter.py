@@ -49,7 +49,7 @@ with st.sidebar:
 with st.sidebar:
     st.sidebar.image('https://img.freepik.com/premium-photo/cute-robot-cafe-working-laptop-taking-notes-with-pen_124507-161688.jpg')
     side_menu = option_menu("AI 카피라이터", ["Intro", "Keyword_extractor", "Copywriter" ],
-                         icons=['bi bi-chat-right-text', 'bi bi-person-raised-hand', 'pencil'],
+                         icons=['bi bi-chat-right-text', 'search', 'pencil-square'],
                          menu_icon="bi bi-robot", default_index=0,
                          styles={
         "container": {"padding": "4!important", "background-color": "dark"},
