@@ -1,4 +1,5 @@
 # ✒️ NLP project</br>AI copywriting service using product review sentiment analysis and keyword extraction
+![70f0f09a-1b95-4b7a-ad39-0aac97c533f4](https://github.com/songeunmin/NomNomNom/assets/144300743/3661d503-bb8f-41c7-9045-8eb36b90f130)
 ## 👥 Team
 - Team name : ⚔️ 좋은 놈, 나쁜 놈, 이상한 놈 (놈놈놈)
 - Team members : 송은민, 윤성진, 송영달
