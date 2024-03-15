@@ -84,7 +84,7 @@
 ![k](https://github.com/songeunmin/NomNomNom/assets/144300743/16f245cf-aee1-4f3d-a0a8-5c6c643418c3)
 
 **1. 1차 키워드 추출**</br>
-       &nbsp;&nbsp;&nbsp; 1) KeyBERT로 1차 키워드 추출</br>  
+       &nbsp;&nbsp;&nbsp; 1) KeyBERT로 1차 키워드 추출</br>
        &nbsp;&nbsp;&nbsp; 2) 키워드로 사용하기 힘든 언어 구조로 출력</br>
        &nbsp;&nbsp;&nbsp; 3) 형태소분석기 필요</br>
 
