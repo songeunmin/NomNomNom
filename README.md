@@ -12,7 +12,7 @@
 - **Git** <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=jupyter&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ## 목차(INDEX)
-&emsp;&ensp;Ⅰ. 주제선정</br>&emsp;&ensp;Ⅱ. 데이터 탐색 및 이미지 전처리</br>&emsp;&ensp;Ⅲ. 모델링</br>&emsp;&ensp;Ⅳ. 키워드 추출</br>&emsp;&ensp;Ⅴ. Streamlit 서비스 구현</br>&emsp;&ensp;Ⅵ. 결과 및 개선사항
+&emsp;&ensp;Ⅰ. 주제선정</br>&emsp;&ensp;Ⅱ. 목표설정</br>&emsp;&ensp;Ⅲ. 프로젝트 순서도</br>&emsp;&ensp;Ⅳ. 모델 선정</br>&emsp;&ensp;Ⅴ. 데이터 전처리</br>&emsp;&ensp;Ⅵ. 모델링</br>&emsp;&ensp;Ⅶ. 키워드 추출</br>&emsp;&ensp;Ⅷ. 서비스 구현</br>&emsp;&ensp;Ⅸ. 프로젝트 결과</br>&emsp;&ensp;
 
 ## Ⅰ. 주제선정
   **1. 인공지능의 발전과 함께 마케팅 분야도 변화**</br>
