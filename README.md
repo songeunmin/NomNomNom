@@ -129,7 +129,7 @@
        &nbsp;&nbsp;&nbsp; 5) KoBERT가 아닌 다른 모델들의 훈련과정이 순탄치 않았음</br>
        &nbsp;&nbsp;&nbsp; 6) 비용적인 문제</br>
 
+# 🕴️ Thanks.
+
 Notion - https://river-suede-2bf.notion.site/1dddbda15afd4682bec92fb6d900565f</br>
 Streamlit URL - https://nomnomnom-jhnzuii6kzyt5i8dazedan.streamlit.app/</br>
-
-# 🕴️ Thanks.
