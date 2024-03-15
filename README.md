@@ -100,5 +100,15 @@
 ![kk](https://github.com/songeunmin/NomNomNom/assets/144300743/2259b8f1-fb21-4a54-9fcd-b146d07cf4ed)
        
 ## Ⅷ. 서비스 구현
+![zozozoz](https://github.com/songeunmin/NomNomNom/assets/144300743/930d6da9-5d47-4912-b758-dfe35ae1b959)
+**1. OpenAI API KEY 입력**</br>
+![kkk](https://github.com/songeunmin/NomNomNom/assets/144300743/5b2ef095-f3a9-4891-b885-ee208a3b5ea2)
+
+**2. 키워드 추출 페이지**</br>
+![치지직 키워드 추출](https://github.com/songeunmin/NomNomNom/assets/144300743/4337eb7e-c8a8-4d4b-87b6-76d641fa86ba)
+
+**3. AI 카피라이팅 페이지**</br>
+![치지직3](https://github.com/songeunmin/NomNomNom/assets/144300743/190425ab-18f4-4b4d-8cae-0b4f5cbe1f6c)
+
 
 ## Ⅸ. 프로젝트 결과
