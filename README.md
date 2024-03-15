@@ -44,3 +44,25 @@
 ![project_process](https://github.com/songeunmin/NomNomNom/assets/144300743/4c207200-0b1c-4a3c-9b77-3ebd3d6dda95)
 
 ## Ⅳ. 모델 선정
+**1. SKTBrain/KoBERT 모델**</br>
+       &nbsp;&nbsp;&nbsp; 1) 기존 BERT 모델의 한국어 성능 한계를 극복하기 위해 개발한 모델</br>
+       &nbsp;&nbsp;&nbsp; 2) 레이어를 추가해 쉽게 Fine-tuning 수행 가능</br>
+       &nbsp;&nbsp;&nbsp; 3) 네이버 영화 리뷰 감정분석에 대한 결과가 타 모델들에 비해 훌륭함</br>
+## Ⅴ. 데이터 전처리
+![p](https://github.com/songeunmin/NomNomNom/assets/144300743/b25fb19f-cbb7-4848-b660-0bed7c0cfc77)
+**1. 학습 데이터**</br>
+       &nbsp;&nbsp;&nbsp; 1) Aihub "속성기반 감정분석 데이터" (25만개)</br>
+       &nbsp;&nbsp;&nbsp; 2) Text, GeneralPolarity(리뷰, 라벨)를 Feature로 선택</br>
+       &nbsp;&nbsp;&nbsp; 3) 라벨링 - 0:부정, 1:중립, 2:긍정</br>
+**2. 테스트 데이터**</br>
+       &nbsp;&nbsp;&nbsp; 1) 치지직 리뷰 크롤링 후 content(리뷰) 컬럼만 사용 </br>
+## Ⅵ. 모델링
+![m](https://github.com/songeunmin/NomNomNom/assets/144300743/864a4705-c2fa-4e6c-801a-1c4721999c0e)
+**1. SKTBrain/KoBERT Fine-tuning**</br>
+       &nbsp;&nbsp;&nbsp; 1) Epoch 10, 소요시간 - 2:30 (1Epoch당 15분)</br>
+       &nbsp;&nbsp;&nbsp; 2) 텍스트, 라벨을 리스트로 묶어 훈련 양식에 맞춤</br>
+## Ⅶ. 키워드 추출
+
+## Ⅷ. 서비스 구현
+
+## Ⅸ. 프로젝트 결과
