@@ -41,3 +41,6 @@
        &nbsp;&nbsp;&nbsp; 3) 추출한 핵심 키워드 3개와 광고할 제품의 이름, 설명을 조합해 카피라이팅을 해주는 서비스 구현</br>
 
 ## Ⅲ. 프로젝트 순서도
+![project_process](https://github.com/songeunmin/NomNomNom/assets/144300743/4c207200-0b1c-4a3c-9b77-3ebd3d6dda95)
+
+## Ⅳ. 모델 선정
