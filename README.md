@@ -84,23 +84,19 @@
 ![k](https://github.com/songeunmin/NomNomNom/assets/144300743/16f245cf-aee1-4f3d-a0a8-5c6c643418c3)
 
 **1. 1차 키워드 추출**</br>
-       &nbsp;&nbsp;&nbsp; 1) KeyBERT로 1차 키워드 추출</br>
-       
+       &nbsp;&nbsp;&nbsp; 1) KeyBERT로 1차 키워드 추출</br>  
        &nbsp;&nbsp;&nbsp; 2) 키워드로 사용하기 힘든 언어 구조로 출력</br>
-       
        &nbsp;&nbsp;&nbsp; 3) 형태소분석기 필요</br>
 
 **2. Kiwi 형태소분석기**</br>
        &nbsp;&nbsp;&nbsp; 1) Kiwi 형태소분석기를 통해 명사만 추출</br>
-       
        &nbsp;&nbsp;&nbsp; 2) 대부분 명사로 출력되지만, 여전히 키워드로 사용하기 힘든 언어가 섞여서 출력</br>
 
 **3. 2차 키워드 추출**</br>
        &nbsp;&nbsp;&nbsp; 1) KeyBERT로 2차 키워드 추출</br>
-       
        &nbsp;&nbsp;&nbsp; 2) 완벽한 명사 형태의 키워드가 출력</br>
-       
        &nbsp;&nbsp;&nbsp; 3) 중요도가 가장 높은 상위 핵심 키워드 3개를 추출</br>
+       
 ![kk](https://github.com/songeunmin/NomNomNom/assets/144300743/2259b8f1-fb21-4a54-9fcd-b146d07cf4ed)
        
 ## Ⅷ. 서비스 구현
