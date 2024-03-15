@@ -15,6 +15,7 @@
 &emsp;&ensp;Ⅰ. 주제 선정</br>&emsp;&ensp;Ⅱ. 목표 설정</br>&emsp;&ensp;Ⅲ. 프로젝트 순서도</br>&emsp;&ensp;Ⅳ. 모델 선정</br>&emsp;&ensp;Ⅴ. 데이터 전처리</br>&emsp;&ensp;Ⅵ. 모델링</br>&emsp;&ensp;Ⅶ. 키워드 추출</br>&emsp;&ensp;Ⅷ. 서비스 구현</br>&emsp;&ensp;Ⅸ. 프로젝트 결과</br>&emsp;&ensp;
 
 ## Ⅰ. 주제선정
+
   **1. 인공지능의 발전과 함께 마케팅 분야도 변화**</br>
        &nbsp;&nbsp;&nbsp; 1) 마케팅 분야에 인공지능을 활용함에 따라 효율성과 정확도가 크게 향상</br>
        &nbsp;&nbsp;&nbsp; 2) 고객 리뷰 분석을 통해 ‘긍정’ 및 ‘부정’ 리뷰를 자동 분류하여 빅데이터화</br>
@@ -26,6 +27,7 @@
        &nbsp;&nbsp;&nbsp; 3) 한국경제 https://www.hankyung.com/article/2023050776871
 
 ## Ⅱ. 목표설정
+
 **1. 리뷰 감정분석**</br>
        &nbsp;&nbsp;&nbsp; 1) KoBERT 모델을 Fine-tuning</br>
        &nbsp;&nbsp;&nbsp; 2) 감정분석 후 긍정, 중립, 부정으로 분류</br>
@@ -51,6 +53,7 @@
        
 ## Ⅴ. 데이터 전처리
 ![p](https://github.com/songeunmin/NomNomNom/assets/144300743/b25fb19f-cbb7-4848-b660-0bed7c0cfc77)
+
 **1. 학습 데이터**</br>
        &nbsp;&nbsp;&nbsp; 1) Aihub "속성기반 감정분석 데이터" (25만개)</br>
        &nbsp;&nbsp;&nbsp; 2) Text, GeneralPolarity(리뷰, 라벨)를 Feature로 선택</br>
@@ -61,6 +64,7 @@
        
 ## Ⅵ. 모델링
 ![m](https://github.com/songeunmin/NomNomNom/assets/144300743/864a4705-c2fa-4e6c-801a-1c4721999c0e)
+
 **1. SKTBrain/KoBERT Fine-tuning**</br>
        &nbsp;&nbsp;&nbsp; 1) 환경 - Colab pro v100 gpu</br>
        &nbsp;&nbsp;&nbsp; 1) 텍스트, 라벨을 리스트로 묶어 훈련 양식에 맞춤</br>
@@ -78,18 +82,24 @@
        
 ## Ⅶ. 키워드 추출
 ![k](https://github.com/songeunmin/NomNomNom/assets/144300743/16f245cf-aee1-4f3d-a0a8-5c6c643418c3)
+
 **1. 1차 키워드 추출**</br>
        &nbsp;&nbsp;&nbsp; 1) KeyBERT로 1차 키워드 추출</br>
+       
        &nbsp;&nbsp;&nbsp; 2) 키워드로 사용하기 힘든 언어 구조로 출력</br>
+       
        &nbsp;&nbsp;&nbsp; 3) 형태소분석기 필요</br>
 
 **2. Kiwi 형태소분석기**</br>
        &nbsp;&nbsp;&nbsp; 1) Kiwi 형태소분석기를 통해 명사만 추출</br>
+       
        &nbsp;&nbsp;&nbsp; 2) 대부분 명사로 출력되지만, 여전히 키워드로 사용하기 힘든 언어가 섞여서 출력</br>
 
 **3. 2차 키워드 추출**</br>
        &nbsp;&nbsp;&nbsp; 1) KeyBERT로 2차 키워드 추출</br>
+       
        &nbsp;&nbsp;&nbsp; 2) 완벽한 명사 형태의 키워드가 출력</br>
+       
        &nbsp;&nbsp;&nbsp; 3) 중요도가 가장 높은 상위 핵심 키워드 3개를 추출</br>
 ![kk](https://github.com/songeunmin/NomNomNom/assets/144300743/2259b8f1-fb21-4a54-9fcd-b146d07cf4ed)
        
