@@ -1,5 +1,5 @@
-# NLP project</br>✒️ 감정분석 기반 AI 카피라이팅 서비스</br>- AI copywriting service based on emotional analysis
-![70f0f09a-1b95-4b7a-ad39-0aac97c533f4](https://github.com/songeunmin/NomNomNom/assets/144300743/3661d503-bb8f-41c7-9045-8eb36b90f130)
+# ✒️ 감정분석 기반 AI 카피라이팅 서비스</br>- AI copywriting service based on emotional analysis
+![70f0f09a-1b95-4b7a-ad39-0aac97c533f4](https://github.com/songeunmin/NomNomNom/assets/144300743/3661d503-bb8f-41c7-9045-8eb36b90f130)</br>NLP Project
 ## 👥 Team
 - Team name : ⚔️ 좋은 놈, 나쁜 놈, 이상한 놈 (놈놈놈)
 - Team members : 송은민, 윤성진, 송영달
