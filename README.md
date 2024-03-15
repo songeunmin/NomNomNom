@@ -48,19 +48,34 @@
        &nbsp;&nbsp;&nbsp; 1) 기존 BERT 모델의 한국어 성능 한계를 극복하기 위해 개발한 모델</br>
        &nbsp;&nbsp;&nbsp; 2) 레이어를 추가해 쉽게 Fine-tuning 수행 가능</br>
        &nbsp;&nbsp;&nbsp; 3) 네이버 영화 리뷰 감정분석에 대한 결과가 타 모델들에 비해 훌륭함</br>
+       
 ## Ⅴ. 데이터 전처리
 ![p](https://github.com/songeunmin/NomNomNom/assets/144300743/b25fb19f-cbb7-4848-b660-0bed7c0cfc77)
 **1. 학습 데이터**</br>
        &nbsp;&nbsp;&nbsp; 1) Aihub "속성기반 감정분석 데이터" (25만개)</br>
        &nbsp;&nbsp;&nbsp; 2) Text, GeneralPolarity(리뷰, 라벨)를 Feature로 선택</br>
        &nbsp;&nbsp;&nbsp; 3) 라벨링 - 0:부정, 1:중립, 2:긍정</br>
+       
 **2. 테스트 데이터**</br>
        &nbsp;&nbsp;&nbsp; 1) 치지직 리뷰 크롤링 후 content(리뷰) 컬럼만 사용 </br>
+       
 ## Ⅵ. 모델링
 ![m](https://github.com/songeunmin/NomNomNom/assets/144300743/864a4705-c2fa-4e6c-801a-1c4721999c0e)
 **1. SKTBrain/KoBERT Fine-tuning**</br>
-       &nbsp;&nbsp;&nbsp; 1) Epoch 10, 소요시간 - 2:30 (1Epoch당 15분)</br>
-       &nbsp;&nbsp;&nbsp; 2) 텍스트, 라벨을 리스트로 묶어 훈련 양식에 맞춤</br>
+       &nbsp;&nbsp;&nbsp; 1) 환경 - Colab pro v100 gpu</br>
+       &nbsp;&nbsp;&nbsp; 1) 텍스트, 라벨을 리스트로 묶어 훈련 양식에 맞춤</br>
+       &nbsp;&nbsp;&nbsp; 2) Epoch 10, 소요시간 - 2:30 (1Epoch당 15분)</br>
+
+**2. 결과 시각화**</br>
+       &nbsp;&nbsp;&nbsp; 1) Training Loss & Training/Test Accuracy</br>![c](https://github.com/songeunmin/NomNomNom/assets/144300743/75a3ffba-76dd-41da-bd4d-40025ecda73e)
+       &nbsp;&nbsp;&nbsp; 2) Confusion Matrix</br>![cc](https://github.com/songeunmin/NomNomNom/assets/144300743/1f829dd1-40be-4100-8d19-453790126885)
+       &nbsp;&nbsp;&nbsp; 3) 치지직 리뷰 감정분석 Tableau 대시보드</br>![t](https://github.com/songeunmin/NomNomNom/assets/144300743/cb62f690-8efd-43a9-8aaf-0453d0a45a60)
+       
+**3. 결론**</br>
+       &nbsp;&nbsp;&nbsp; 1) 과적합 가능성이 의심되지만 분류 성능이 우수해 그대로 사용</br>
+       &nbsp;&nbsp;&nbsp; 2) 치지직 리뷰 감정분석 결과 부정 감정의 분포가 가장 많음</br>
+       &nbsp;&nbsp;&nbsp; 3) 감정 별 감정분석 정확도는 80% 이상</br>
+       
 ## Ⅶ. 키워드 추출
 
 ## Ⅷ. 서비스 구현
