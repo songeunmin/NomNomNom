@@ -67,8 +67,8 @@
 
 **1. SKTBrain/KoBERT Fine-tuning**</br>
        &nbsp;&nbsp;&nbsp; 1) 환경 - Colab pro v100 gpu</br>
-       &nbsp;&nbsp;&nbsp; 1) 텍스트, 라벨을 리스트로 묶어 훈련 양식에 맞춤</br>
-       &nbsp;&nbsp;&nbsp; 2) Epoch 10, 소요시간 - 2:30 (1Epoch당 15분)</br>
+       &nbsp;&nbsp;&nbsp; 2) 텍스트, 라벨을 리스트로 묶어 훈련 양식에 맞춤</br>
+       &nbsp;&nbsp;&nbsp; 3) Epoch 10, 소요시간 - 2:30 (1Epoch당 15분)</br>
 
 **2. 결과 시각화**</br>
        &nbsp;&nbsp;&nbsp; 1) Training Loss & Training/Test Accuracy</br>![c](https://github.com/songeunmin/NomNomNom/assets/144300743/75a3ffba-76dd-41da-bd4d-40025ecda73e)
